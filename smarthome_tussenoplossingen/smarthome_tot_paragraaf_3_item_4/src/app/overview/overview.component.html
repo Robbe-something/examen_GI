@@ -1,0 +1,23 @@
+
+<div class="content-wrapper">
+  <div class="container-fluid">
+    <div class="card mb-3">
+      <div class="card-header">
+        <i class="fas fa-bell"></i> Notifications
+      </div>
+      <div class="card-body">
+        <div class="list-group list-group-flush small">
+          <div *ngFor="let n of notifications">
+            <app-notification icoon="{{n.icon}}" boodschap="{{n.message}}"></app-notification>
+          </div>
+
+
+          <!-- voor paragraaf 2, vraag 1 komt er dit:
+          <app-notification icoon="fa-clock" boodschap="De achterdeur is toe!"></app-notification>
+          -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

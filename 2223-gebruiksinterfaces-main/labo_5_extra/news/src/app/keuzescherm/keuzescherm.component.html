@@ -1,0 +1,5 @@
+<p>keuzescherm works! {{keuze}}</p>
+<div class="row">
+  <app-subcategorieen [catId]="keuze" (subcategorieSelected)="onSubcategorieChange($event)"></app-subcategorieen>
+  <app-opsomming [subcategorie]="selectedCategorie"></app-opsomming>
+</div>

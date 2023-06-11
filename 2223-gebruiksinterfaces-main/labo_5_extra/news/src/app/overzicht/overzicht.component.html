@@ -1,0 +1,6 @@
+<h2>Kies uw onderwerp</h2>
+<ul class="nav nav-pills">
+  <li class="nav-item mr-2" *ngFor="let onderwerp of onderwerpen">
+    <a class="nav-link active" routerLink="/keuze/{{onderwerp.id}}">{{onderwerp.title}}</a>
+  </li>
+</ul>

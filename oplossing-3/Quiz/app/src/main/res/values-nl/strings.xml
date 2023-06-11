@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="hint_button">Tip</string>
+    <string name="ok_button">Oké</string>
+    <string name="answer">antwoord</string>
+</resources>

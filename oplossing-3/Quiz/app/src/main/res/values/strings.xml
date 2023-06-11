@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="hint_button">Hint</string>
+    <string name="ok_button">Ok</string>
+    <string name="answer">answer</string>
+    <string name="title_activity_hint">HintActivity</string>
+    <string name="text_hint">text</string>
+    <string name="image_hint">image</string>
+</resources>
